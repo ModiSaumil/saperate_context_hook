@@ -28,7 +28,7 @@ const User = () => {
                 </div>
                 <div>
                     <label>
-                        Email
+                        Password
                     </label>
                     <input type="text" placeholder="password" onChange={(e) => { setUserData({ ...userData, password: e.target.value }) }} value={userData?.password} />
                 </div>

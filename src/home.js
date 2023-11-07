@@ -21,7 +21,7 @@ const Home = () => {
             <input placeholder='password' value={userdetail?.password} disabled></input><br/>
             {/* <p>contact number : {userdetail?.contactnumber}</p> */}
             <input placeholder='contact number' value={userdetail?.contactnumber} disabled></input><br/>
-            <button onClick={()=>(editdetails())}>Edit</button>
+            {/* <button onClick={()=>(editdetails())}>Edit</button> */}
         </div>
     )
 }
